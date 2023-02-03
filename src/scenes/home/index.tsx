@@ -59,23 +59,14 @@ const Home = ({ setSelectedPage }: Props) => {
 
         {/* IMAGE */}
         <div
-          className="flex basis-3/5 justify-center md:z-10
-              md:ml-40 md:mt-16 md:justify-items-end"
+          className="flex basis-3/5 justify-center md:z-10 
+              md:ml-40 mt-16 md:justify-items-end"
         >
           <img alt="home-pageGraphic" src={HomeDog} />
         </div>
       </motion.div>
 
-      {/* SPONSORS */}
-      {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
-          <div className="mx-auto w-5/6">
-            <h1 className="text-3xl font-extrabold text-gray-500">
-              Somos los mejores en lo que hacemos...
-            </h1>
-          </div>
-        </div>
-      )}
+      
     </section>
   );
 };

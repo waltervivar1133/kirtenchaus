@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-const childVariant = {
-  hidden: { opacity: 0, scale: 0.9 },
-  visible: { opacity: 1, scale: 1 },
-};
+// const childVariant = {
+//   hidden: { opacity: 0, scale: 0.9 },
+//   visible: { opacity: 1, scale: 1 },
+// };
 
 type Props = {
   icon: JSX.Element;
@@ -24,8 +24,7 @@ const About = ({
 }: Props) => {
   return (
     <>
-      <motion.div
-        variants={childVariant}
+      <div
         className="mt-5 rounded-md border-2 border-gray-100  text-center"
       >
         <div className="m-0 flex justify-center p-0">{icon}</div>
@@ -42,7 +41,7 @@ const About = ({
             <p>Saber mas</p>
           </div>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

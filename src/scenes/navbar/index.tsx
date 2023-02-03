@@ -4,8 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
-import Logo from '@/assets/logo-k.png'
+import Logo from "@/assets/logo.png";
 
 type Props = {
   isTopOfPage: boolean;
@@ -27,9 +26,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
-            
-              <img src={Logo} alt="" width={200} />
-            
+
+            <img src={Logo} alt="" className="w-9/12 md:w-1/5"/>
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
@@ -52,10 +50,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                
-                  <ActionButton setSelectedPage={setSelectedPage}>
+                  {/* <ActionButton setSelectedPage={setSelectedPage}>
                     Comunicate con nosotros
-                  </ActionButton>
+                  </ActionButton> */}
                 </div>
               </div>
             ) : (
