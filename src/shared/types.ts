@@ -1,13 +1,18 @@
 export enum SelectedPage {
-  Home = "home",
-  About = "about",
-  OurClasses = "ourclasses",
+  Home = "inicio",
+  About = "nosotros",
+  Service = "servicios",
   ContactUs = "contactus",
 }
 
-export interface AboutType {
+export interface AboutMomentsType {
   icon: JSX.Element;
   title: string;
+  shortDescription: string;
+  description: JSX.Element;
+}
+
+export interface AboutTexts {
   description: string;
 }
 

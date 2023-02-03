@@ -1,42 +1,46 @@
 import { ServiceType } from "@/shared/types";
-import image1 from "@/assets/image1.png";
+import image1 from "@/assets/etologia.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
-import image6 from "@/assets/image6.png";
+import image4 from "@/assets/servicio.png";
+import image5 from "@/assets/can-caballero.png";
+import image6 from "@/assets/canino.png";
 
 export const services: Array<ServiceType> = [
   {
-    name: "Weight Training Classes",
+    name: "ETÓLOGIA",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Prevención, diagnóstico y tratamiento de problemas de comportamiento, conductas normales, inaceptables, alteradas.",
     image: image1,
   },
   {
-    name: "Yoga Classes",
+    name: "TERAPIAS ASISTIDAS CON ANIMALES",
+    description:
+      "Logra mejorar la calidad emocional y la seguridad con pacientes que han perdido la motivación por enfermedades crónicas. Es efectivo para problemas de atención y aprendizaje, sobre todo en niños. Se planifican objetivos específicos de tratamiento con su médico y su psicólogo.",
     image: image2,
   },
   {
-    name: "Ab Core Classes",
+    name: "ASISTENCIAS ASISTIDAS",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Proceso menos formal que las terapias, únicamente es una visita. de motivación y alegría.Proporciona oportunidades para la educación, deleite y disfrutar de beneficios terapéuticos que mejoran la calidad de vida.",
     image: image3,
   },
   {
-    name: "Adventure Classes",
+    name: "SOCIALIZACIÓN DE CACHORROS",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Para solucionar problemas conductuales de las mascotas en la interacción con persona y otras mascotas.",
     image: image4,
   },
   {
-    name: "Fitness Classes",
+    name: "MASOTERAPIA",
+    description:
+      "Técnica kinesiológica que se utiliza en animales con problemas de comportamiento, como ansiedad por separación,agresividad, estrés, entre otros.",
     image: image5,
   },
   {
-    name: "Training Classes",
+    name: "ADIESTRAMIENTO CANINO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Clases teórico, prácticas dirigidas a los propietarios y sus mascotas, también para aquellos que lo quieren ver como una profesión.",
     image: image6,
   },
 ];
