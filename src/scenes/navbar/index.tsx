@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-
-import Link from "./Link";
+import { Link } from "react-router-dom";
+import Linked from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import Logo from "@/assets/logo.png";
@@ -27,23 +27,25 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
 
-            <img src={Logo} alt="" className="w-9/12 md:w-1/5"/>
+            <Link to="/" className="w-9/12 md:w-1/5">
+              <img src={Logo} alt="" />
+            </Link>
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>
-                  <Link
+                  <Linked
                     page="Inicio"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <Link
+                  <Linked
                     page="Nosotros"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <Link
+                  <Linked
                     page="Servicios"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
@@ -79,17 +81,17 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
           {/* MENU ITEMS */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
-            <Link
+            <Linked
               page="Inicio"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            <Linked
               page="Nosotros"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            <Linked
               page="Servicios"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
