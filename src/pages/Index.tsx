@@ -24,7 +24,7 @@ const Index = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="app bg-gray-20">
+    <div className="app ">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}

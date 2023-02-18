@@ -3,6 +3,8 @@ import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HomeDog from "@/assets/img-perro.png";
 import { motion } from "framer-motion";
+import NavLinks from "../navbar/NavLinks";
+
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -11,8 +13,9 @@ type Props = {
 const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
+
   return (
-    <section id="inicio" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
+    <section id="inicio" className="gap-16 bg-gray-20 py-10 md:h-[80%] md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
         className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
@@ -54,6 +57,7 @@ const Home = ({ setSelectedPage }: Props) => {
             <ActionButton setSelectedPage={setSelectedPage}>
               Saber más
             </ActionButton>
+      
           </motion.div>
         </div>
 

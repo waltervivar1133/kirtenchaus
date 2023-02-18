@@ -22,3 +22,14 @@ export interface ServiceType {
   image: string;
   link:string;
 }
+
+ export interface Sublinks {
+  name: string;
+  link: string;
+}
+
+export interface LinkType {
+  name: string;
+  submenu: boolean;
+  sublinks: Sublinks[];
+}

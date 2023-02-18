@@ -28,7 +28,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
   const [showModal, setShowModal] = useState<Boolean>(false);
   const [dataModal, setDataModal] = useState('');
   return (
-    <section id="nosotros" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="nosotros" className="mx-auto min-h-full w-5/6 py-20 bg-pr">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.About)}>
         {/* HEADER */}
         <motion.div

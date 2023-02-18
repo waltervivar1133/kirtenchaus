@@ -1,5 +1,5 @@
 import { SelectedPage } from "@/shared/types";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link, useLocation } from "react-router-dom";
 
 type Props = {
   page: string;
@@ -7,20 +7,40 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const Link = ({ page, selectedPage, setSelectedPage }: Props) => {
+const LinkRef = ({ page, selectedPage, setSelectedPage }: Props) => {
   const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage;
-  
+  const location = useLocation();
+  const currentPath = location.pathname;
+
   return (
-    <AnchorLink
-      className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}
-        transition duration-500 hover:text-primary-300
+    <>
+      {currentPath === "/" ? (
+        <a
+          className={`${
+            selectedPage === lowerCasePage ? "font-bold text-secondary-500" : ""
+          }
+          active:text-white" transition duration-500 hover:text-secondary-400
+        `}
+          href={`#${lowerCasePage}`}
+          onClick={() => setSelectedPage(lowerCasePage)}
+        >
+          {page}
+        </a>
+      ) : (
+        <Link
+          to="/"
+          className={`${
+            selectedPage === lowerCasePage ? "font-bold text-secondary-500" : ""
+          }
+        active:text-white" transition duration-500 hover:text-secondary-400
       `}
-      href={`#${lowerCasePage}`}
-      onClick={() => setSelectedPage(lowerCasePage)}
-    >
-      {page}
-    </AnchorLink>
+        >
+          {" "}
+          {page}
+        </Link>
+      )}
+    </>
   );
 };
 
-export default Link;
+export default LinkRef;
