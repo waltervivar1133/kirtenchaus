@@ -1,12 +1,14 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Index from "./pages/Index";
 import Canino from "./pages/Canino";
 import Terapia from "./pages/Terapia";
 import Etologia from "./pages/Etologia";
 
+
 function App() {
+ 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/canino" element={<Canino />} />

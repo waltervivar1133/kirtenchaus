@@ -17,9 +17,9 @@ const LinkRef = ({ page, selectedPage, setSelectedPage }: Props) => {
       {currentPath === "/" ? (
         <a
           className={`${
-            selectedPage === lowerCasePage ? "font-bold text-secondary-500" : ""
+            selectedPage === lowerCasePage ? "font-black text-gray-500" : ""
           }
-          active:text-white" transition duration-500 hover:text-secondary-400
+          active:text-white" transition duration-500 hover:text-gray-500
         `}
           href={`#${lowerCasePage}`}
           onClick={() => setSelectedPage(lowerCasePage)}
@@ -30,9 +30,9 @@ const LinkRef = ({ page, selectedPage, setSelectedPage }: Props) => {
         <Link
           to="/"
           className={`${
-            selectedPage === lowerCasePage ? "font-bold text-secondary-500" : ""
+            selectedPage === lowerCasePage ? "font-bold text-gray-500" : ""
           }
-        active:text-white" transition duration-500 hover:text-secondary-400
+        active:text-white" transition duration-500 hover:text-gray-500
       `}
         >
           {" "}

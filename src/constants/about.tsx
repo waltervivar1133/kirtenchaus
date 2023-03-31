@@ -1,5 +1,4 @@
 import { AboutMomentsType, AboutTexts } from "@/shared/types";
-import { UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
 import CanCaballero from "@/assets/can-caballero.png";
 import Adiestramiento from "@/assets/adiestramiento.png";
 import Presentacion from "@/assets/presentacion.png";
@@ -9,13 +8,13 @@ import PerroServicio from "@/assets/servicio.png";
 export const aboutMoments: Array<AboutMomentsType> = [
   {
     icon: <img width="450px" height="338px" src={CanCaballero} />,
-    title: "CAN CABALLERO",
+    title: "CAN CIUDADANO",
     shortDescription:
-      "La Prueba del Can Caballero tiene por objeto lograr un excelente nivel de comportamiento social...",
+      "La Prueba del Can Ciudadano tiene por objeto lograr un excelente nivel de comportamiento social...",
     description: (
       <>
         <p className="font-montserrat text-gray-500">
-          La Prueba del Can Caballero tiene por objeto lograr un excelente nivel
+          La Prueba del Can Ciudadano tiene por objeto lograr un excelente nivel
           de comportamiento social, tanto como un adiestramiento básico, con lo
           cual lograran que sus perros sean animales completamente sociables,
           con personas y perros; por lo que no le causara ningún tipo de
