@@ -42,7 +42,7 @@ const Canino = () => {
         </h1>
       </section>
 
-      <div className="grid grid-cols-2 bg-gray-20 py-10 px-10 md:grid-cols-3 md:gap-4">
+      <div className="grid grid-cols-1 gap-3 bg-gray-20 py-10 px-10 md:grid-cols-3 md:gap-4">
         <div className="max-w-lg rounded-lg border border-gray-200 bg-white shadow ">
           <img
             className="w-full rounded-t-lg"
