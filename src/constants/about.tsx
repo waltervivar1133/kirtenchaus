@@ -54,7 +54,8 @@ export const aboutMoments: Array<AboutMomentsType> = [
           cuenta a través del olfato que había una persona con problemas
           emocionales, (tristeza, agobio, pena etc.) <br /> <br /> al percibirlo
           se le acercaba amigablemente y no se separaba de ella hasta que sentía
-          su cambio de actitud.
+          su cambio de actitud. <br />
+          Esta solicitud puede ser pedido por cualquier dueño de mascota que tenga alguna discapacidad emotiva, no es necesario que un médico especialista brinda la solicitud.
         </p>
       </>
     ),
@@ -76,15 +77,15 @@ export const aboutMoments: Array<AboutMomentsType> = [
   },
   {
     icon: <img width="450px" height="338px" src={Chiki} />,
-    title: "CHIKI FUE UNA ALUMNA",
+    title: "PERRO DE SERVICIO",
     shortDescription:
       "Por las regulaciones emitidas recientemente por el Departamento de Transporte de los Estados Unidos....",
     description: (
       <>
-        <p>
+        <p className="font-montserrat text-gray-500">
           Por las regulaciones emitidas recientemente por el Departamento de
           Transporte de los Estados Unidos (DOT), <br /> <br /> solo viajaran en
-          cabina perros de servicio con su propietario, esta regla entro en
+          cabina perro de asistencia asistida con su propietario, esta regla entro en
           vigor el 11 de enero del 2022. <br /> <br /> American Airlines y otras
           líneas aéreas que permitían viajar en cabina a los perros de apoyo
           emocional ahora no podrán hacerlo.
@@ -94,7 +95,7 @@ export const aboutMoments: Array<AboutMomentsType> = [
   },
   {
     icon: <img width="450px" height="338px" src={Adiestramiento} />,
-    title: "ADIESTRAMIENTO DE CACHORROS",
+    title: "SOCIABILIZACIÓN DE CACHORROS",
     shortDescription:
       "Para evitar que los amos tengan problemas por sus mascotas. Clases a cachorros...",
     description: (
@@ -102,8 +103,7 @@ export const aboutMoments: Array<AboutMomentsType> = [
         <p className="font-montserrat text-gray-500">
           Para evitar que los amos tengan problemas por sus mascotas. <br />{" "}
           <br /> Clases a cachorros entre los 2 meses y 10 meses, <br /> <br />{" "}
-          Las clases de socialización para cachorros están dirigidas a cachorros
-          entre los 2 meses y 10 meses de edad aproximadamente, <br /> <br />{" "}
+          Las clases de socialización para cachorros están dirigidas a cachorros, <br /> <br />{" "}
           dictadas por un alumno de Ian Dunbar Usamos el método de Ian Dunbar,
           en estas clases pueden participar todos los miembros de la familia en
           el adiestramiento. <br /> <br /> Los cachorros deben traer su
@@ -121,10 +121,6 @@ export const aboutText: Array<AboutTexts> = [
   },
   {
     description: "Asesor de la Escuela de Perros de la Fuerza Aérea del Perú.",
-  },
-  {
-    description:
-      "Creador de la Escuela de Perros de Guerra del Batallón de Municiones 513 del Ejército.",
   },
   {
     description:
