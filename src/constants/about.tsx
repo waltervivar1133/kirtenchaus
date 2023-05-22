@@ -40,8 +40,8 @@ export const aboutMoments: Array<AboutMomentsType> = [
     ),
   },
   {
-    icon: <img width="450px" height="338px" src={PerroServicio} />,
-    title: "PERROS DE SERVICIO",
+    icon: <iframe width="450" height="338" src="https://www.youtube.com/embed/JIvOtXy_5IE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>,
+    title: "PERROS DE ASISTENCIA",
     shortDescription:
       "Preparamos perros para realizar tareas en beneficio de personas con discapacidad física...",
     description: (
@@ -49,12 +49,12 @@ export const aboutMoments: Array<AboutMomentsType> = [
         <p className="font-montserrat text-gray-500">
           Preparamos perros para realizar tareas en beneficio de personas con
           discapacidad física, sensorial, psiquiátrica, intelectual u otra
-          discapacidad mental, <br /> <br /> en el video, Daiquiri nuestra
+          discapacidad mental,   en el video, Daiquiri nuestra
           primera perra de servicio, cuando caminaba por la calle, si se daba
           cuenta a través del olfato que había una persona con problemas
-          emocionales, (tristeza, agobio, pena etc.) <br /> <br /> al percibirlo
+          emocionales, (tristeza, agobio, pena etc.)  al percibirlo
           se le acercaba amigablemente y no se separaba de ella hasta que sentía
-          su cambio de actitud. <br />
+          su cambio de actitud. <br /> <br /> 
           Esta solicitud puede ser pedido por cualquier dueño de mascota que tenga alguna discapacidad emotiva, no es necesario que un médico especialista brinda la solicitud.
         </p>
       </>
@@ -84,7 +84,7 @@ export const aboutMoments: Array<AboutMomentsType> = [
       <>
         <p className="font-montserrat text-gray-500">
           Por las regulaciones emitidas recientemente por el Departamento de
-          Transporte de los Estados Unidos (DOT), <br /> <br /> solo viajaran en
+          Transporte de los Estados Unidos (DOT), solo viajaran en
           cabina perro de asistencia asistida con su propietario, esta regla entro en
           vigor el 11 de enero del 2022. <br /> <br /> American Airlines y otras
           líneas aéreas que permitían viajar en cabina a los perros de apoyo
@@ -102,8 +102,8 @@ export const aboutMoments: Array<AboutMomentsType> = [
       <>
         <p className="font-montserrat text-gray-500">
           Para evitar que los amos tengan problemas por sus mascotas. <br />{" "}
-          <br /> Clases a cachorros entre los 2 meses y 10 meses, <br /> <br />{" "}
-          Las clases de socialización para cachorros están dirigidas a cachorros, <br /> <br />{" "}
+          <br /> Clases a cachorros entre los 2 meses y 10 meses,
+          Las clases de socialización para cachorros están dirigidas a cachorros,
           dictadas por un alumno de Ian Dunbar Usamos el método de Ian Dunbar,
           en estas clases pueden participar todos los miembros de la familia en
           el adiestramiento. <br /> <br /> Los cachorros deben traer su
