@@ -86,7 +86,7 @@ export const aboutMoments: Array<AboutMomentsType> = [
           Por las regulaciones emitidas recientemente por el Departamento de
           Transporte de los Estados Unidos (DOT), solo viajaran en
           cabina perro de asistencia asistida con su propietario, esta regla entro en
-          vigor el 11 de enero del 2022. <br /> <br /> American Airlines y otras
+          vigor el 11 de enero del 2022. <br />American Airlines y otras
           líneas aéreas que permitían viajar en cabina a los perros de apoyo
           emocional ahora no podrán hacerlo.
         </p>
@@ -101,12 +101,12 @@ export const aboutMoments: Array<AboutMomentsType> = [
     description: (
       <>
         <p className="font-montserrat text-gray-500">
-          Para evitar que los amos tengan problemas por sus mascotas. <br />{" "}
+          Para evitar que los amos tengan problemas por sus mascotas.
           <br /> Clases a cachorros entre los 2 meses y 10 meses,
           Las clases de socialización para cachorros están dirigidas a cachorros,
           dictadas por un alumno de Ian Dunbar Usamos el método de Ian Dunbar,
           en estas clases pueden participar todos los miembros de la familia en
-          el adiestramiento. <br /> <br /> Los cachorros deben traer su
+          el adiestramiento. Los cachorros deben traer su
           certificado de vacunación firmado por un MV colegiado.
         </p>
       </>

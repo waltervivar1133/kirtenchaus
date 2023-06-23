@@ -18,7 +18,7 @@ const Modal = ({ showModal, dataModal, setShowModal }: Props) => {
             >
               <CloseButton />
             </button>
-            <div className="flex items-center justify-center rounded bg-white p-5">
+            <div className=" rounded bg-white p-5 overflow-y-scroll md:overflow-y-hidden max-h-[80vh] ">
               <div>{dataModal}</div>
             </div>
           </div>
